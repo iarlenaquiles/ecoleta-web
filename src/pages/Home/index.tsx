@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiLogin } from 'react-icons/fi';
+import { FiLogIn } from 'react-icons/fi';
 
 import './styles.css';
 
@@ -21,7 +21,7 @@ const Home = () => {
 
           <a href="/cadastro">
             <span>
-              <FiLogin />
+              <FiLogIn />
             </span>
             <strong>
               Cadastro um ponto de coleta
