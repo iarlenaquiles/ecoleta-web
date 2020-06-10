@@ -14,7 +14,15 @@ const CreatePoint = () => {
     email: '',
     whatsapp: '',
   });
-  
+
+  const [ufs, setUfs] = useState<string[]>([]);
+  const [cities, setCities] = useState<string[]>([]);
+  const [items, setItems] = useState<Item[]>([]);
+
+  const [selectedUf, setSelectedUf] = useState('0');
+  const [selectedCity, setSelectedCity] = useState('0');
+  const [selectedItems, setSelectedItems] = useState<number[]>([]);
+
   const [initialPosition, setInitialPosition] = useState<[number, number]>([
     0,
     0,
