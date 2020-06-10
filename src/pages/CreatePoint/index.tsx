@@ -8,6 +8,20 @@ import './styles.css';
 
 import logo from '../../assets/logo.svg';
 
+interface Item {
+  id: number;
+  title: string;
+  image_url: string;
+}
+
+interface IBGEUFResponse {
+  sigla: string;
+}
+
+interface IBGECityResponse {
+  nome: string;
+}
+
 const CreatePoint = () => {
   const [formData, setFormData] = useState({
     name: '',
