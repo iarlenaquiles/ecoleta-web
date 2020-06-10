@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Map, TileLayer, Marker } from 'react-leaflet';
@@ -9,6 +9,12 @@ import './styles.css';
 import logo from '../../assets/logo.svg';
 
 const CreatePoint = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    whatsapp: '',
+  });
+  
   const [initialPosition, setInitialPosition] = useState<[number, number]>([
     0,
     0,
@@ -31,6 +37,10 @@ const CreatePoint = () => {
     setSelectedPosition([event.latlng.lat, event.latlng.lng]);
   }
 
+  function handleSubmit(event: FormEvent) {
+
+  }
+
  return (
     <div id="page-create-point">
       <header>
@@ -42,7 +52,7 @@ const CreatePoint = () => {
         </Link>
       </header>
 
-      <form action="">
+      <form autoComplete="off" onSubmit={handleSubmit}>
         <h1>Cadastro do<br/> ponto de coleta</h1>
 
         <fieldset>
