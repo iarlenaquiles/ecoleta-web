@@ -1,44 +1,91 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="300px" src=".github/logo.png">
+    <br><br>
+</h3>
 
-## Available Scripts
+<p align="center">
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
+  </a>
+  <a>
+  <img alt="License" src="https://camo.githubusercontent.com/e2f41b08ff03e8fa41c25edc05fc43dbfb62f363/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6961726c656e617175696c65732f65636f6c6574612d6170693f636f6c6f723d253233373531394331">
+</p>
 
-In the project directory, you can run:
+# Índice
 
-### `yarn start`
+- [Sobre](#sobre)
+- [Documentação](#documentacao)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Usar](#como-usar)
+- [Como Contribuir](#como-contribuir)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a id="sobre"></a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :bookmark: Sobre
 
-### `yarn test`
+O <strong>Ecoleta-web</strong> é uma aplicação para ajudar pessoas a encontrarem pontos de coleta para reciclagem.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/). A ideia de criar uma aplicação voltada ao meio ambiente surgiu da coincidência da data do curso e a data da <strong>semana do meio ambiente</strong>
 
-### `yarn build`
+<a id="documentacao"></a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :books: Documentação
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Em construção
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a id="tecnologias-utilizadas"></a>
 
-### `yarn eject`
+## :rocket: Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O wev foi desenvolvido utilizando as seguintes tecnologias
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJs](https://reactjs.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :heavy_check_mark: Resultado:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
 
-## Learn More
+<a id="como-usar"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :fire: Como usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ### **Pré-requisitos**
+
+  - É **necessário** possuir o **[ReactJs](https://reactjs.org/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+
+1. Faça um clone :
+
+```sh
+  $ git clone https://github.com/iarlenaquiles/ecoleta-web.git
+```
+
+2. Executando a Aplicação:
+
+```sh
+  # Instale as dependências
+  $ yarn
+
+  # Inicie o app
+  $ yarn start
+```
+
+<a id="como-contribuir"></a>
+
+## :recycle: Como contribuir
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
+## :mortar_board: Quem ministrou?
+
+As aulas foram ministradas pelo mestre **[Diego Fernandes](https://github.com/diego3g)** nas aulas da **Next Level Week**.
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
